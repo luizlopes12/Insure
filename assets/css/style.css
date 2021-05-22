@@ -47,20 +47,18 @@
     .menu-open{
         display: inline-flex;
     }
-    #navbar-close{
-        transform: translateX(100%);
-        transition: all .2s linear;
-    }
     #navbar-open{
         transform: translateX(0);
         transition: all .2s linear;
     }
     .menu{
         position: absolute;
-        left: -.5px;
+        left: 0;
         width: 100%;
         height: 100vh;
         background:  #2d2640 url('../images/bg-pattern-mobile-nav.svg') no-repeat bottom;
+        transform: translateX(100%);
+        transition: all .2s linear;
     }
     .menu ul{
         margin: 0;
