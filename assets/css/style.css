@@ -7,6 +7,23 @@
 .titles{
     font-family: 'DM Serif Display', serif;
 }
+.menu{
+    font-weight: 700;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+}
+.menu li{
+    text-align: center;
+    width: 150px;
+    transition: all .2s linear;
+}
+.menu li:hover{
+    cursor: pointer;
+    border: 2px solid #000;
+}
 .header{
-    background-color: aqua;
+    height: 100px;
+    background-color: #ffffff;
 }
