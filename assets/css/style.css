@@ -62,7 +62,6 @@
     #navbar-open{
         display: initial;
         transform: translateX(0);
-        transition: all .2s linear;
     }
     .menu{
         position: absolute;
@@ -72,7 +71,6 @@
         display: none;
         background:  #2d2640 url('../images/bg-pattern-mobile-nav.svg') no-repeat bottom;
         transform: translateX(100%);
-        transition: all .2s linear;
     }
     .menu ul{
         margin: 0;
