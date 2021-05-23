@@ -47,6 +47,18 @@
     .menu-open{
         display: inline-flex;
     }
+    .icon-menu-close-hidden{
+        display: none;
+    }
+    .icon-menu-open-hidden{
+        display: none;
+    }
+    .icon-menu-open{
+        display: initial;
+    }
+    .icon-menu-close{
+        display: initial;
+    }
     #navbar-open{
         display: initial;
         transform: translateX(0);

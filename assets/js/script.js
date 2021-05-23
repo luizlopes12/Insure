@@ -1,10 +1,18 @@
 function navOpen(){
-    let nav = document.querySelector('#nav');
-    nav.setAttribute('id', 'navbar-open');
-
-
+    var nav = document.querySelector('.menu')
+    var openButton = document.querySelector('#navOpen-button')
+    var closeButton = document.querySelector('#navClose-button')
+        openButton.classList.add('icon-menu-open-hidden')
+        openButton.classList.remove('icon-menu-open')
+        closeButton.classList.add('icon-menu-close')
+        nav.setAttribute('id', 'navbar-open')
 }
 function navClose(){
-    let nav = document.querySelector('#navbar-open');
-    nav.removeAttribute('id', 'nav');
+    var nav = document.querySelector('.menu')
+    var openButton = document.querySelector('#navOpen-button')
+    var closeButton = document.querySelector('#navClose-button')
+        openButton.classList.add('icon-menu-open')
+        closeButton.classList.add('icon-menu-close-hidden')
+        closeButton.classList.remove('icon-menu-close')
+        nav.removeAttribute('id', 'navbar-open')
 }
