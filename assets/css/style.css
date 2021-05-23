@@ -55,6 +55,9 @@
     height: 600px;
     background: #2d2640;
 }
+.desc-items{
+    flex-direction: row-reverse;
+}
 .desc-line {
     width: 185px;
 }
@@ -68,7 +71,7 @@
 }
 .plans-button{
     width: 200px;
-    margin-left: 10px;
+
 }
 .plans-button a{
     text-decoration: none;
@@ -76,13 +79,19 @@
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.2em;
-    padding: 10px 30px;
+    padding: 10px 35px;
     border: 3px solid #fff;
     transition: all .2s ease-in-out;
 }
 .plans-button a:hover{
     background-color: #fff;
     color: #000;
+}
+.desc-image{
+    background-color: black;
+    height: 680px;
+    background-image: url('../images/image-intro-desktop.jpg');
+    background-size: cover;
 }
 @media(max-width: 800px){
     .logo{
@@ -152,4 +161,22 @@
     .nav-li-fixed a{
         color: #ffffff;
     }
+    .desc-image{
+        position: absolute;
+        z-index: 2;
+        left: 0;
+        top: 42px;
+        width: 100%;
+        height: 451px;
+        background-image: url('../images/image-intro-mobile.jpg');
+        background-size: ;
+
+    }
+    .desc-texts{
+        display: none;
+    }
+
+
+
+
 }
