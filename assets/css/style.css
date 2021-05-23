@@ -177,10 +177,11 @@
         display: none;
     }
     .titles{
-        font-size: 4.1em;
+        font-size: 3.3em;
     }
     .texts{
-        font-size: 2em;
+        text-align: justify;
+        font-size: 1.8em;
     }
     .desc{
         display: flex;
