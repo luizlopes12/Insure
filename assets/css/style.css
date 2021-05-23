@@ -93,7 +93,7 @@
     background-image: url('../images/image-intro-desktop.jpg');
     background-size: cover;
 }
-@media(max-width: 800px){
+@media(max-width: 500px){
     .logo{
         display: inline-flex;
         align-items: center;
@@ -187,8 +187,8 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        margin-top: 60%;
-        height: 800px;
+        margin-top: 80%;
+        height: 600px;
     }
     .desc-texts{
         font-size: 60%;
