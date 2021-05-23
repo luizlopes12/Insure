@@ -28,7 +28,7 @@
 .nav-li{
     color: #837d87;
     text-align: center;
-    width: 150px;
+    width: 25%;
     transition: all .2s linear;
 }
 .nav-li:hover{
