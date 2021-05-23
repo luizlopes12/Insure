@@ -93,6 +93,20 @@
     background-image: url('../images/image-intro-desktop.jpg');
     background-size: cover;
 }
+.diff-line {
+    width: 185px;
+}
+.diff-line hr{
+    color: #000000;
+    border: 2px solid rgb(0, 0, 0);
+}
+.diff-title{
+    color: #000;
+}
+.diff-subtitle{
+    font-size: 2em;
+    color: #000;
+}
 @media(max-width: 500px){
     .logo{
         display: inline-flex;
