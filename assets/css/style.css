@@ -20,18 +20,26 @@
     border: 3px solid #2d2640;
     transition: all .2s linear;
 }
+.nav-li-fixed a{
+    text-decoration: none;
+    color: #2d2640;
+}
+.nav-li-fixed a:hover{
+    color: #837d87;
+}
 .nav-li-fixed:hover{
     cursor: pointer;
     color: #837d87;
     background-color: #2d2640;
 }
-.nav-li{
+.nav-li, .nav-li a{
     color: #837d87;
+    text-decoration: none;
     text-align: center;
     width: 25%;
     transition: all .2s linear;
 }
-.nav-li:hover{
+.nav-li:hover, .nav-li a:hover{
     cursor: pointer;
     color: #2d2640;
 }
@@ -101,5 +109,12 @@
     .nav-li-fixed:hover{
         color: #ffffff;
         border: 2px solid #949494;
+    }
+    .nav-li a{
+        color: #ffffff;
+        width: 100%;
+    }
+    .nav-li-fixed a{
+        color: #ffffff;
     }
 }
