@@ -169,7 +169,7 @@
         width: 100%;
         height: 451px;
         background-image: url('../images/image-intro-mobile.jpg');
-        background-size: ;
+        background-size: auto;
 
     }
     .desc-texts{
