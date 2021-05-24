@@ -70,7 +70,7 @@
     font-size: 1.5em;
 }
 .plans-button{
-    width: 200px;
+    width: 220px;
 
 }
 .plans-button a{
@@ -104,8 +104,25 @@
     color: #000;
 }
 .diff-subtitle{
+    margin-top: 40px;
     font-size: 2em;
     color: #000;
+}
+.diff-text{
+    margin-top: 20px;
+    font-size: 1.3em;
+    color: #837d87;
+}
+.find-more{
+    background-color: #2d2640;
+}
+.find-title{
+    font-size: 4.5em;
+    padding: 50px;
+}
+.find-button{
+    margin: 115px auto;
+
 }
 @media(max-width: 500px){
     .logo{
@@ -210,7 +227,22 @@
     .plans-button{
         margin: auto;
     }
-
+    .diff-line{
+        margin: auto;
+    }
+    .diff{
+        font-size: 80%;
+        text-align: center;
+    }
+    .diff p{
+        text-align: center;
+    }
+    .find-title {
+        font-size: 2.4em;
+    }
+    .find-button a{
+        margin: auto;
+    }
 
 
 
