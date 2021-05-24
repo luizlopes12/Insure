@@ -6,7 +6,7 @@
 - [x] Javascript
 - [x] Bootstrap 
  ### Mobile
-![imagem mobile](https://github.com/luizlopes12/Insure/blob/main/Screenshot_2.png)
+![imagem mobile](https://github.com/luizlopes12/Insure/blob/main/Screenshot_4.png)
 ![imagem mobile](https://github.com/luizlopes12/Insure/blob/main/Screenshot_3.png)
 ### Desktop
 ![imagem desktop](https://github.com/luizlopes12/Insure/blob/main/Screenshot_1.png)
