@@ -127,12 +127,22 @@
 
 }
 .footer{
-    height: 400px;
+    padding-bottom: 80px;
     background-color:  #fafafae1;
 }
 .footer-top img{
-    margin: 50px 10px 25px 0;
+    margin: 50px 5px 25px 0;
     height: 30px;
+}
+.footer-gray-text{
+    font-weight: 700;
+    font-size: 1.4em;
+    color: #837d87;
+}
+.footer-dark-text{
+    font-weight: 700;
+    font-size: 1.2em;
+    color: #2d2640;
 }
 @media(max-width: 500px){
     .logo{
@@ -264,6 +274,24 @@
         font-size: 80%;
         text-align: center;
     }
-
+    .footer{
+        padding-bottom: 40px;
+        background-color:  #fafafae1;
+    }
+    .footer-top img{
+        margin: 30px 5px 10px 0;
+        height: 25px;
+    }
+    .footer-gray-text{
+        font-weight: 700;
+        font-size: 1.4em;
+        color: #837d87;
+        margin-top: 25px;
+    }
+    .footer-dark-text{
+        font-weight: 700;
+        font-size: 1em;
+        color: #2d2640;
+    }
 
 }
