@@ -127,8 +127,12 @@
 
 }
 .footer{
-    height: 300px;
-    background-color: #949494;
+    height: 400px;
+    background-color:  #fafafae1;
+}
+.footer-top img{
+    margin: 50px 10px 25px 0;
+    height: 30px;
 }
 @media(max-width: 500px){
     .logo{
@@ -256,7 +260,10 @@
     .find-button a{
         margin: auto;
     }
-
+    .footer-top{
+        font-size: 80%;
+        text-align: center;
+    }
 
 
 }
