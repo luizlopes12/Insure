@@ -61,9 +61,6 @@
 .desc-line {
     width: 185px;
 }
-.diff{
-    height: 10000px;
-}
 .desc-line hr{
     color: #ffffff;
     border: 2px solid #fff;
@@ -128,6 +125,10 @@
 .find-button{
     margin: 115px auto;
 
+}
+.footer{
+    height: 300px;
+    background-color: #949494;
 }
 @media(max-width: 500px){
     .logo{
