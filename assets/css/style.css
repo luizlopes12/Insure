@@ -168,7 +168,15 @@
     .icon-menu-close{
         display: initial;
     }
+    .header-fix{
+        background-color: #fff;
+        position: fixed;
+        top: 0;
+        z-index: 99999;
+    }
     #navbar-open{
+        position: fixed;
+        z-index: 99999;
         display: initial;
         transform: translateX(0);
     }
