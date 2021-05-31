@@ -1,5 +1,5 @@
 # Insure
- Desafio de landing page proposto no site [frontendmentor](https://www.frontendmentor.io/profile/luizlopes12).
+ Desafio de uma landing page proposto no site [frontendmentor](https://www.frontendmentor.io/profile/luizlopes12).
  
 - [x] HTML
 - [x] CSS
